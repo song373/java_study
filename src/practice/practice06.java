@@ -7,10 +7,10 @@ public class practice06 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-        /*
+        
 		// 1번. 삼각형의 밑변과 높이를 입력받아서 넓이를 출력하세요. (소수점까지 표현)
 		// 삼각형의 넓이 = 밑변 * 높이 / 2 ;
-		
+	   /*
        Scanner scanner = new Scanner(System.in);
 		
        System.out.println("삼각형 밑변 입력하세요 : ");
@@ -58,6 +58,7 @@ public class practice06 {
 		System.out.println("세자리의 정수를 입력 : ");
 		int num = scanner.nextInt();
 		
+		
 		System.out.println("백의자리 : " + (num/100));
 		System.out.println("십의자리 : " + (num/10%10));
 		System.out.println("일의자리 : " + (num%10));
@@ -69,14 +70,10 @@ public class practice06 {
 		158 % 100 =  58
 		158 % 10 =   8
 		*/
-		
-		
-		
-        
-		               
-		            
+		   
+	    /*
 		// 5번 x와 y 변수 안에 들어있는 서로의 값을 바꾸기
-		/*
+		
 		int x = 10;
 		int y = 20;
 		System.out.println("x="+x+ " y="+y);
@@ -90,7 +87,7 @@ public class practice06 {
 		System.out.println("x="+x+ " y="+y);
 		System.out.println("y="+y+ " x="+x);
 		*/
-		
+	
 		
 	}
 
