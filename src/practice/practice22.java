@@ -189,16 +189,23 @@ public class practice22 {
 	
 		while(true) {
 			
+//       2개씩 -1
+//       +197-198+199
+//       -99
+//        100
+			
 			if(i%2 == 0) { //짝수
 				sum = sum - i;
 			} else { //홀수
 				sum = sum + i;
 			}
 			
-			i++;
+			//i: 199
 			
 			if(sum >= 100)
 				break;
+			
+			i++; // i : 200
 		}
 		
 		System.out.println("100 넘는 시점의 누적합 :" + sum);
