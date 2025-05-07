@@ -6,9 +6,7 @@ public class Menu {
 	int price;
 	// 생성자
 	public Menu(String str, int i) {
-	name = str;
-	price = i;
+		name = str;
+		price = i;
 	}
-	
-
 }
