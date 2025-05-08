@@ -22,6 +22,16 @@ public class ChineseRestaurant {
 		
 //		Menu[] menuArr2 = {new Menu("짬뽕", 5900), new Menu("짜장",4900)
 //				,new Menu("탕수육",13900), new Menu("탕수육",13900)};
+		
+		
+		ArrayList<Menu> menuList2 = new ArrayList<Menu>();
+		menuList2.add(new Menu("짬뽕", 5900));
+		menuList2.add(new Menu("짜장", 4900));
+		menuList2.add(new Menu("탕수육", 13900));
+		menuList2.add(new Menu("탕수육", 13900));
+		
+		Order order2 = new Order(124, menuList2);
+		System.out.printf("[주문번호 %d] 주문 합계: %d원\n", order2);
 	
 		
 

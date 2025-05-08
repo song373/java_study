@@ -23,7 +23,7 @@ public class Variable06 {
 		
 		System.out.printf("아~ 지금 %d시 이군요!\n", hour);
 		
-		System.out.println("중간고사 평군 점수 입력 : ");
+		System.out.print("중간고사 평군 점수 입력 : ");
 		double mean = scanner.nextDouble();
 		System.out.printf("아 %.2f점 이군요~\n", mean);
 	}

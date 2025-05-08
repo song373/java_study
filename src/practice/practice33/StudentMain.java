@@ -6,14 +6,15 @@ public class StudentMain {
 		
 		Student s1 = new Student();
 		
-//		s1.department = "체육교육과";
+//		s1.department = "컴공";
+//		s1.studentNumber = 202501005;
+//		
+//		System.out.printf("%s학과 학번:%d\n", s1.department, s1.studentNumber);
 		
-		s1.setDepartment("체육교육과");
-		s1.setStudentNumber(20190000);
+		s1.setDepartment("컴공");
+		s1.setStudentNumber(202501005);
 		
-		System.out.printf("%s학과 학번:%d\n" );
-		
-
+		System.out.printf("%s학과 학번:%d\n", s1.getDepartment(), s1.getStudentNumber());
 	}
 
 }

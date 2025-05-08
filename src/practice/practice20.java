@@ -62,6 +62,7 @@ public class practice20 {
 
 
 		if(num1 > num2) {
+			
 			System.out.printf("%d - %d = %d\n",num1, num2, num1-num2);
 		} else { //num2 이 더 큼 (num1 == num2)
 			System.out.printf("%d - %d = %d\n",num2, num1, num2-num1);

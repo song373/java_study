@@ -15,6 +15,9 @@ public class practice18 {
 		String[] menuArr = {"입력", "수정", "조회", "삭제", "종료"};
 		
 	    for(int i=0; i<menuArr.length; i++) { //i: 0 1 2 3 4
+	    	//  i:0              0+1           menuArr0
+	    	//                   1.입력
+	    	//                   2.수정
 	    	System.out.println((i+1) + ". " + menuArr[i]);
 	    	
 	    }

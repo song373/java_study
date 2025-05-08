@@ -17,7 +17,7 @@ public class practice10 {
 		int eng = scanner.nextInt();
 		
 		//점수 총합 / 3 =평균
-// int ave = (lang + math + eng) / 3;
+// int avg = (lang + math + eng) / 3;
 		int total = lang + math + eng; //총합
 		double avg = (lang + math + eng) / 3.0;
 		

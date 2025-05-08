@@ -41,12 +41,33 @@ public class Iteration02 {
 			i++;
 		}
 		
+		
 		i = 0;
-		while(i<5) {
-			i++;
+		while(i<5) { // 5<5
+			i++;     //i:1 2 3 4 5
 			System.out.println(i);
 			
 		}
+		
+		//i:5
+		
+		//do while
+		
+		i = 6;
+		while(i<5) {
+			System.out.println("i<5");
+		}
+		
+		do {
+			System.out.println(" do while i<5");
+		} while(i<5);  //do while은 while 뒤에 ; 필요함
+			
 	}
 
 }
+
+
+
+
+
+

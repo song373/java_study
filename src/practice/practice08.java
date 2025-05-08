@@ -189,7 +189,7 @@ public class practice08 {
 		// 단, 점수는 100점까지로 간주합니다.
 		// 점수는 0~100 점 중에 score로 주어진다.
 
-		int score =69;
+		int score =100;
 
 		if( score >= 90) {
 			System.out.println("학점 A");
@@ -227,6 +227,9 @@ public class practice08 {
 		// 십의자리수가 7 8 9 C B A
 		// 90 /10 =9
 		// 95 /10 =9
+		// 99 /10 =9
+		// 100 /10 =10
+		
 	}
 
 }

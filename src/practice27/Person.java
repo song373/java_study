@@ -44,6 +44,7 @@ public class Person {
 	
 	//생성자 : 객체가 생성될대 초기에 해야 할 일
 	Person() {
+		/*
 		name = null;
 		gender = null;
 		age = 0;
@@ -53,7 +54,7 @@ public class Person {
 		bloodType = null;
 		ishealthy = true; //초기화 값
 		isSleeping = false;
-		
+		*/
 		
 	}
 	Person (String name,String gender , 

@@ -433,8 +433,6 @@ public class practice26 {
 			realPersonCount++;
 		}
 		
-		
-		
 		realPersonCount = (realPersonCount > maxPersonCount) ? maxPersonCount : realPersonCount;
 		
 		System.out.println("최종 탑승 인원 : " + realPersonCount);

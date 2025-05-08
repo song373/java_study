@@ -16,6 +16,7 @@ public class practice14 {
         }
         System.out.println();
         
+        
         for(int i=0; i<10; i++) {
         	if(i%2 != 0)
         	{
@@ -23,6 +24,7 @@ public class practice14 {
         	}
         }
         System.out.println();
+        
 	}
 
 }

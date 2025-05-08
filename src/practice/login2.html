@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            background-color: #1abc9c;
+            margin: 0 auto;
+            margin-top: 50px;
+            padding: 50px;
+        }
+
+        .top-menu {
+            display: flex;
+            width: 100%;
+        }
+        .menu-item {
+            /* width:150px */
+            width: 150px;
+            height: 50px;
+            background-color: aliceblue;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-active {
+            background-color: lightseagreen;
+
+
+        }
+
+        .menu-inactive {
+            background-color: rgb(88, 81, 81);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="top-menu">
+        <div class="menu-item menu-inactive"></div>
+        <a href="i.html">i파일</a>
+        <div class="menu-item menu-active"></div>
+        <a href="i2.html">i2파일</a>
+    </div>
+
+</div>
+
+</body>
+</html>

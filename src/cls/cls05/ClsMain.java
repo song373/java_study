@@ -9,6 +9,7 @@ public class ClsMain {
 		int[] nArr = {10, 20};
 		int[] nArr2 = new int[5];
 
+		nArr[0] = 30;
 		// nArr[0]
 
 		Temp t1 = new Temp();
@@ -36,7 +37,7 @@ public class ClsMain {
 		Temp result = methodB(t1);
 		System.out.println(result.name);
 
-		int[] rsult2 = methodC(nArr);
+		int[] result2 = methodC(nArr);
 		for(int i=0; i<result2.length; i++) {
 			System.out.print(result2[i] + " ");
 		}
@@ -48,6 +49,11 @@ public class ClsMain {
 			t.method();
 		}
 
+		Temp[] rrr = methodE(null);
+		if( rrr != null) {
+			rrr[0].method();
+		}
+		
 	}
 
 	public static int methodA(int n) {
@@ -90,6 +96,14 @@ public class ClsMain {
 		
 		return arr;
 
+	}
+	       //                   Temp tt = null;
+	
+	public static Temp[] methodE(Temp tt) {
+		
+		return null;
+		
+		//Temp[] tArr = null;
 	}
 
 }

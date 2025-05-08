@@ -8,21 +8,22 @@ public class Collection03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		//HashMap
 		
-		//key value
+		//key	value
 		
-		//출석번호 이름
-		//숫자 문자
+		//출석번호	이름
+		//숫자	문자
 		
 		HashMap<Integer, String> map1 = new HashMap<Integer, String>();
 		
-
 		map1.put(1, "김일");
 		map1.put(2, "정이");
 		map1.put(3, "이삼");
 		map1.put(3, "최삼");
+		
+		map1.remove(2); //(2, "정이"
 		
 		System.out.println(map1.size());
 		System.out.println(map1.containsKey(3));
@@ -39,28 +40,26 @@ public class Collection03 {
 		
 		System.out.println(map2.get("규칙2"));
 		
-		 //set -> iterator -> hasNext next
+		//set -> iterator -> hasNext next
 		
-		System.out.println("-------- map1 key --------");
-		for(int key : map1.keySet()) {
-			System.out.print(key + " " + map1.get(key) + " ");
+		System.out.println("---------map1 key-------------");
+		for(int key : map1.keySet()) {	// 1 2 3 
+			System.out.print(key + " " + map1.get(key) +  " ");
 		}
 		System.out.println();
 		
-		System.out.println("-------- map1 value --------");
+		System.out.println("---------map1 value-------------");
 		
 		for(String value : map1.values()) {
 			System.out.print(value + " ");
 		}
 		System.out.println();
 		
-		Set<Entry<Integer, String>> entrySet = map1.entrySet();
+		Set<Entry<Integer, String>> entrySet  = map1.entrySet();
 		
-		System.out.println("----------map1 entrySet----------");
-		for(Entry<Integer, String> entry : entrySet) {
-			System.out.println(entry.getKey() + " " + entry.getValue()); 
-			
+		System.out.println("---------map1 entrySet-------------");
+		for(Entry<Integer, String> entry  : entrySet) {
+			System.out.println(entry.getKey() + " " + entry.getValue());
 		}
 	}
-
 }

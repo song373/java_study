@@ -49,6 +49,7 @@ public class Practice27 {
 	p2.printPersoninfo();
 	
 	Person p3 = new Person();
+	
 	p3.printPersoninfo();
 	
 	

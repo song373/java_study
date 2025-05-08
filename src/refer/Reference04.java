@@ -20,6 +20,8 @@ public class Reference04 {
 		System.out.println(arr3 == arr4);
 		//System.out.println(arr3[0] == arr4[0]);
 		System.out.println(arr3[0].equals(arr4[0]));
+		
+		
 
 		
 	}

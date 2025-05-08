@@ -154,8 +154,12 @@ System.out.println("1000이 넘는 누적 합 : " + sum);
 		 */
 		
 		Scanner scanner = new Scanner (System.in);
-		System.out.println("구구단 몇단? : ");
+		System.out.println("구구단(1~9) 몇단? : ");
 		int num = scanner.nextInt();
+		
+		if(num >=1 && num <= 9) { //1~9 인 경우만 구구단 출력
+			
+		}
 		
 		for(int i=1; i<=9; i++) {
 			System.out.printf("%d * %d = %d\n",num,i, num*i);

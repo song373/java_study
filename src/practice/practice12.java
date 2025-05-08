@@ -4,16 +4,35 @@ public class practice12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		※규칙을 찾아보고 작성
+		1) 반복문 1개로 결과 만들기
+		2)반복문 2개 중첩해서 결과만들기
+
+		//아래와 같은 결과가 출력되도록 코드를 작성하시오
+		//1.
+		12345
+		12345
+		12345
+		12345
+		12345
+
+		//2.
+		11111
+		22222
+		33333
+		44444
+		55555
+		*/
 		
-		for (int i = 0; i < 5; i++) {
+		for (int i = 1; i < 5; i++) { //5회 반복
             System.out.println("12345");
         }
 
-		for (int i = 1; i <= 5; i++) { // 행 (row)
-            for (int j = 1; j <= 5; j++) { // 열 (column)
-                System.out.print(i); // 각 열에 해당하는 숫자 출력 (1, 2, 3, 4, 5)
-            }
-            System.out.println(); // 다음 행으로 넘어감
+		for (int i = 1; i <= 5; i++) { //5회 반복
+                System.out.print(""+i+i+i+i+i); 
+            
+           
         }
 	}
 
