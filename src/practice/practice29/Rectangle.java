@@ -1,19 +1,19 @@
-package practice29;
+package practice.practice29;
 
-public class Triangle {
-	
+public class Rectangle {
+
 	int width; //밑변
 	int height; //높이
 	
-	void setSize(int width, int height) {
+	Rectangle(int width, int height) {
 		this.width = width;
 		this.height = height;
 		
 	}
+	
 	double getArea() {
-		return width * height / 2.0;
+		return width * height;
 		
-
-}
-
+	}
+	
 }

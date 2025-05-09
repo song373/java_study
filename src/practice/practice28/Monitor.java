@@ -1,4 +1,4 @@
-package practice28;
+package practice.practice28;
 
 public class Monitor {
      //필드

@@ -1,4 +1,4 @@
-package practice29;
+package practice.practice29;
 
 public class TV {
 
