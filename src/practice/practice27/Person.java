@@ -1,4 +1,4 @@
-package practice27;
+package practice.practice27;
 
 public class Person {
 	/*

@@ -20,5 +20,11 @@ public class BluetoothMike extends Mike {
 	public void check() {
 		System.out.println("기능 확인");
 	}
+	
+	public String toString() {
+		
+		String str = String.format("%s, 가격%d\n");
+		return str;
+	}
 
 }
