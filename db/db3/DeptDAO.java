@@ -1,6 +1,5 @@
 package db.v2.db.v3;
 
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import study.db.v2.DBConnectionManager;
-import study.db.v2.Dept;
+import db.v2.DBConnectionManager;
+import db.v2.Dept;
 
 public class DeptDAO {
 	// DAO
